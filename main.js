@@ -1,5 +1,4 @@
-var cursor = document.getElementById("cursor");
-document.body.addEventListener("mousemove", function(e) {
-  cursor.style.left = e.clientX + "px",
-    cursor.style.top = e.clientY + "px";
-});
+var blur_elem = document.getElementById("cursor");
+document.onmousemove = (evt) => {
+    blur_elem.style.transform = `translate(${evt.clientX}px, ${evt.clientY}px)`;
+  };
