@@ -34,8 +34,8 @@ body {
     transform-origin: center;  
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
-    -webkit-mask-image: radial-gradient(50px at 50% 50%, transparent 100%, black 100%);
-    mask-image: radial-gradient(50px at 50% 50% , transparent 100%, black 100%)
+    -webkit-mask-image: radial-gradient(100px at 50% 50%, transparent 100%, black 100%);
+    mask-image: radial-gradient(100px at 50% 50% , transparent 100%, black 100%)
   }
 
   @supports not ((backdrop-filter: blur(0px)) or (-webkit-backdrop-filter: blur(0px))) {
